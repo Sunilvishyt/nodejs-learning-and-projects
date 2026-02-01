@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Node URL Shortener</h1>
+    <form method="POST" action="/">
+      <label>Enter URL to shorten</label>
+      <input type="text" name="url" />
+      <button type="submit">Generate</button>
+    </form>
+
+    <% if (data) { %>
+    <div>
+      <h2>short urls</h2>
+      <ol>
+        <% data.forEach((val)=> { %>
+        <li style="padding-bottom: 8px;">
+          <a href="http://localhost:8000/<%= val.urlid %>"> 
+            http://localhost:8000/<%=val.urlid%>
+          </a> --> <%=val.redirect%>
+        </li>
+        <% }) %>
+      </ol>
+    </div>
+    <% } %>
+  </body>
+</html>
