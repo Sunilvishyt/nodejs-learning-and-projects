@@ -11,9 +11,10 @@ This project is a URL shortener built with Node.js and Express. It allows users 
 ## Installation
 
 1. Clone the repository: `https://github.com/Sunilvishyt/nodejs-learning-and-projects`
-2. go the the url shortner directory
-3. Install the dependencies: `npm install`
-4. Start the server: `npm start`
+2. Go the the url shortner directory: `cd url-shortner`
+3. create .env file in the in the url-shortner directory with you database key : `MONGODB_URL="your-mongodb-url"`
+4. Install the dependencies: `npm install`
+5. Start the server: `npm start`
 
 ## Usage
 
