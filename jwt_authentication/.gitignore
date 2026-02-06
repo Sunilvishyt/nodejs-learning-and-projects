@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+*.pem
+*.pid
+*.socket
+*.key
+tmp/
+run/
+build/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Compiled binary files
+*.jse
+*.jsl
+*.swc
+
+.env
