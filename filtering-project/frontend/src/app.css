@@ -1,0 +1,9 @@
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 10px;
+  background: lightblue;
+  margin-bottom: 10px;
+}
